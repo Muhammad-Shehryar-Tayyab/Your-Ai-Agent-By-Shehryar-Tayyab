@@ -48,7 +48,7 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by shehryar Sir")
-    } else if(message.includes("who is shehryar")){
+    } else if(message.includes("who created you")){
         speak(" Shehryar Tayyab Sir, a passionate frontend and full-stack web developer with over three years of experience in creating visually appealing and user-friendly websites. His expertise lies in HTML, CSS, JavaScript, Tailwind CSS, and Node.js, and His specialize in building responsive and interactive web applications.")
     }
     else if(message.includes("open youtube")){
